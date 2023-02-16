@@ -1,0 +1,6 @@
+Para crear una clase... Nos comunicamos solo con la fabrica y no con el Padre.
+Se trata de construir sub-clases deacuerdo a condición de creación.
+
+
+Car: es el producto.
+CarFactory: es la fabrica que produce los productos carro.
