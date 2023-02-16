@@ -1,0 +1,14 @@
+1 -> Instaciar varios objetos sobre 1 solo.
+
+Si solo existe un objeto (Unico)
+solo se crea 1 sola vez...
+
+Ejemplo:
+
+Un solo super admin No hay que instanciarlo en varias partes muchas veces y crearlo muchas veces...
+Solo se instancia en varias partes pero se crea una vez.
+
+Una sola conexión a base de datos... Se instancia muchas veces... solo 1 vez se crea.
+
+
+
