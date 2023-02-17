@@ -1,0 +1,27 @@
+Modificar el comportamiento de metodos de una clase sin necesidad de modificar el metodo,
+solo se trata de llamar al decorador, hacer los calculos y luego retornar.
+
+
+A = función entrante
+B = función interna
+z = valor que se va a retornar*
+
+funcion_decoradora(A):
+    hacer B():
+        ...
+        z = A()
+        ...
+        return z
+    retornar B
+
+
+@funcion_decoradora
+def A(self):
+    ....
+
+
+Ejemplo:
+
+Al guardar en la base de datos decorar para abrir y cerrar la conexión.
+
+
