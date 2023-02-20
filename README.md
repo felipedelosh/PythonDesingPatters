@@ -17,3 +17,8 @@ Solo se crea muchas veces pero se instancia 1 sola vez.
 
 Añade funcionalidad a un método sin necesidad de modificarlo, o sea simplemente se llama a otra función antes de que el método
 se ejecute para hacer algo en otra función.
+
+# Adapter
+
+Conecta clases incompatibles para trabajar. Osea si tengo 2 clases que no están hechas para trabajar juntas se hace 
+una clase adaptadora la cual tendra un metodo que las pondrá a trabajar en conjunto.
