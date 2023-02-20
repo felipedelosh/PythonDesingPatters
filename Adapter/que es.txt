@@ -1,0 +1,8 @@
+Conecta clases que no tienen nada que ver (Incompatibles, inconectables).
+
+Ejemplo:
+
+Una clase se comunica por Json
+Una clase se comunica por XML
+
+Entonces podemos crear una interface para trabajar con el adaptador y no con las clases.
