@@ -22,3 +22,7 @@ se ejecute para hacer algo en otra función.
 
 Conecta clases incompatibles para trabajar. Osea si tengo 2 clases que no están hechas para trabajar juntas se hace 
 una clase adaptadora la cual tendra un metodo que las pondrá a trabajar en conjunto.
+
+# Observer
+
+En caso de necesitar que varias clases se enteren en tiempo real del estado de un Objeto, se puede crear una colección de suscriptores y notificar del cambio.
